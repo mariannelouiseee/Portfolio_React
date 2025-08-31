@@ -8,10 +8,12 @@ import Education from "./Education";
 import Skills from "./Skills";
 import ContactForm from "./ContactForm";
 import Footer from "./Footer";
+import ScrollAnimation from "./ScrollAnimation";
 
 function App() {
   return (
     <div className="container">
+      <ScrollAnimation />
       <div id="home">
         <Navbar />
         <Info />
