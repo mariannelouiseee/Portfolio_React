@@ -229,7 +229,7 @@ ul li {
 #education-timeline {
   min-height: 100vh;
   padding: 30px 20px;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 #education-timeline h1 {
@@ -352,11 +352,10 @@ ul li {
 
 #skills {
   scroll-margin-top: 30px;
+  min-height: 95vh;
+  margin-top: 2%;
 }
 
-.myskills {
-  margin-top: 7%;
-}
 .myskills img {
   width: 70px;
   height: 75px;
@@ -417,11 +416,11 @@ ul li {
 /* ContactForm.js */
 
 #contact {
+  scroll-margin-top: 0;
   padding: 60px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  max-height: 85vh;
 }
 
 .form {
@@ -431,7 +430,6 @@ ul li {
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
-  margin-top: 10%;
 }
 
 .form h1 {
