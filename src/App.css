@@ -11,6 +11,8 @@ html {
 .container {
   background: linear-gradient(to right, #e0f7ff, #b4d9f3);
   background-size: cover;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 /* Navbar.js */
