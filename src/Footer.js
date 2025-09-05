@@ -6,7 +6,10 @@ function Footer() {
       <div className="footer-content">
         <p className="footer-copy">
           &copy; 2025 All rights reserved. |{" "}
-          <a href="./Marianne.pdf" download="MarianneLouiseMedrano-CV.pdf">
+          <a
+            href="./MarianneResume.pdf"
+            download="MarianneLouiseMedrano-CV.pdf"
+          >
             Download CV
           </a>
         </p>
