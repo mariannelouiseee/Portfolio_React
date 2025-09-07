@@ -7,7 +7,7 @@ function Footer() {
         <p className="footer-copy">
           &copy; 2025 All rights reserved. |{" "}
           <a
-            href="./MarianneResume.pdf"
+            href="./MarianneMedranoResume.pdf"
             download="MarianneLouiseMedrano-CV.pdf"
           >
             Download CV
