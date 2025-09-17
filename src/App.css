@@ -5,21 +5,20 @@
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-html {
+html,
+body {
   scroll-padding-top: 100px;
+  overflow-x: hidden;
 }
 .container {
   background: linear-gradient(to right, #e0f7ff, #b4d9f3);
   background-size: cover;
-  max-height: 100%;
-  max-width: 100%;
 }
 
 /* Navbar.js */
 
 .navbar {
   display: flex;
-  position: fixed;
   justify-content: space-between;
   background-color: #4682b4;
   width: 100%;
@@ -599,7 +598,7 @@ ul li {
     padding: 0;
   }
   #home {
-    min-height: 70vh;
+    min-height: 50vh;
   }
 
   .logo {
@@ -622,8 +621,9 @@ ul li {
     font-size: 1.5rem;
   }
   .info {
-    padding-top: 0%;
-    padding-left: 0%;
+    padding-top: 0;
+    padding-left: 0;
+    padding-right: 0;
     text-align: center;
     justify-content: center;
   }
@@ -667,7 +667,7 @@ ul li {
     display: flex;
     justify-content: center;
     right: 0;
-    padding-top: 30%;
+    padding-top: 10%;
     padding-bottom: 10%;
   }
 
@@ -726,6 +726,10 @@ ul li {
     left: 2%;
   }
 
+  #skills {
+    min-height: 90vh;
+  }
+
   .myskills {
     margin-top: 5%;
   }
@@ -739,11 +743,14 @@ ul li {
   }
 
   .form {
-    margin-top: 10%;
     padding: 20px;
+    margin-top: 0;
   }
   .form p {
     font-size: 10px;
+  }
+  .footer {
+    margin-top: 0;
   }
 }
 
@@ -832,12 +839,16 @@ ul li {
     bottom: 0;
   }
   #about {
-    margin-top: 5%;
+    margin-top: 10%;
   }
   #education-timeline {
     margin-top: 5%;
   }
   .form {
     margin-top: 5%;
+  }
+  #skills {
+    min-height: 80%;
+    margin-bottom: 0;
   }
 }
