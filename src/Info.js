@@ -11,7 +11,7 @@ function Info() {
           Hello! I'm <span>M</span>arianne.
         </h3>
         <h1>
-          <span>W</span>eb <span>D</span>eveloper
+          <span>S</span>oftware <span>D</span>eveloper
         </h1>
         <h4>
           <i>
